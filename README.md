@@ -41,7 +41,8 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). 
+It is an inner function that has its own variable but also has access to the outer parent function variable .
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -62,9 +63,12 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? How can you tell? 
+
+function() is the closure. It has it owns its own scope and have access to the outer function's variable.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+c. What is the lexical scope of `newRoll`?  function()
 
 ### Task 3 - Stretch Goals
 
